@@ -6,7 +6,7 @@ sudo apt-get install python-paramiko
 
 sudo pip install ecdsa
 
-git clone https://github.com/robertdavidgraham/masscan
+git clone https://github.com/qespresso/0yGnHVeJkXnlbp.git
 
 cd masscan
 
