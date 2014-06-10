@@ -1,0 +1,10 @@
+admin|admin
+ubnt|ubnt
+pi|raspberry
+support|support
+root|root
+guest|guest
+test|test
+root|admin
+ftpuser|asteriskftp
+PlcmSpIp|PlcmSpIp
